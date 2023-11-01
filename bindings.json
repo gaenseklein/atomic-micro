@@ -1,0 +1,17 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Alt-f": "command-edit:grepsearch ",
+    "Alt-r": "lua:filemanager.toggle_tree",
+    "Alt-v": "command:vsplit",
+    "Ctrl-F2": "command:toggleBookmark",
+    "Ctrl-g": "command-edit:goto ",
+    "Ctrl-r": "lua:repfiles.start",
+    "CtrlDown": "CursorDown,CursorDown,CursorDown,CursorDown,CursorDown",
+    "CtrlShift-F2": "command:clearBookmarks",
+    "CtrlShiftDown": "SelectDown,SelectDown,SelectDown,SelectDown,SelectDown",
+    "CtrlShiftUp": "SelectUp,SelectUp,SelectUp,SelectUp,SelectUp",
+    "CtrlUnderscore": "lua:comment.comment",
+    "CtrlUp": "CursorUp,CursorUp,CursorUp,CursorUp,CursorUp",
+    "F2": "command:nextBookmark",
+    "Shift-F2": "command:prevBookmark"
+}
