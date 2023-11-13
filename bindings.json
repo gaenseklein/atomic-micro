@@ -13,5 +13,6 @@
     "CtrlUnderscore": "lua:comment.comment",
     "CtrlUp": "CursorUp,CursorUp,CursorUp,CursorUp,CursorUp",
     "F2": "command:nextBookmark",
-    "Shift-F2": "command:prevBookmark"
+    "Shift-F2": "command:prevBookmark",
+    "Tab": "lua:snippets.Insert|Autocomplete|IndentSelection|InsertTab"
 }
