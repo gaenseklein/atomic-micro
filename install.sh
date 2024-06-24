@@ -4,13 +4,14 @@ mv ~/.config/micro ~/.config/micro.backup
 micro -plugin install quoter
 micro -plugin install filemanager
 micro -plugin install bookmark
-micro -plugin install snippets
 cp bindings.json ~/.config/micro/bindings.json
 cp settings.json ~/.config/micro/settings.json
 git clone https://github.com/gaenseklein/repfiles
 git clone https://github.com/gaenseklein/grepsearch
 git clone https://github.com/gaenseklein/gittab
-mv repfiles ~/.config/micro/
-mv grepsearch ~/.config/micro/
-mv gittab ~/.config/micro/
+git clone https://github.com/gaenseklein/sniptab
+mv repfiles ~/.config/micro/plug/repfiles
+mv grepsearch ~/.config/micro/plug/grepsearch
+mv gittab ~/.config/micro/plug/gittab
+mv sniptab ~/.config/micro/plug/sniptab
 echo "all done, happy microing"
