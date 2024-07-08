@@ -5,8 +5,13 @@
     "eofnewline": false,
     "fastdirty": true,
     "ignorecase": false,
+    "lsp.formatOnSave": false,
+    "lsp.server": "typescript=typescript-language-server --stdio,javascript=typescript-language-server --stdio",
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],
-    "pluginrepos": []
+    "pluginrepos": [],
+    "quoter.enable": false,
+    "repfiles.show_filter_block": false,
+    "savecursor": true
 }
