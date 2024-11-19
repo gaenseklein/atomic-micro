@@ -15,4 +15,5 @@ mv repfiles ~/.config/micro/plug/repfiles
 mv grepsearch ~/.config/micro/plug/grepsearch
 mv gittab ~/.config/micro/plug/gittab
 mv sniptab ~/.config/micro/plug/sniptab
+mv bracketeer ~/.config/micro/plug/bracketeer
 echo "all done, happy microing"

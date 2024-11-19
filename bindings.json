@@ -1,6 +1,5 @@
 {
     "Alt-/": "lua:comment.comment",
-    "Alt-A": "lua:snippets.Accept",
     "Alt-D": "command:definition",
     "Alt-Left": "lua:bracketeer.jump_to_previous_bracket",
     "Alt-Right": "lua:bracketeer.jump_to_next_bracket",
@@ -12,8 +11,7 @@
     "Alt-h": "command:hsplit",
     "Alt-k": "command:hover",
     "Alt-m": "lua:bracketeer.mark_outer_bracket",
-    "Alt-r": "lua:filemanager.toggle_tree",
-    "Alt-s": "lua:snippets.Insert",
+    "Alt-r": "lua:filemanager.toggle_tree",    
     "Alt-v": "command:vsplit",
     "Alt-w": "lua:bracketeer.mark_outer_bracket",
     "AltShiftRight": "lua:bracketeer.mark_to_next_bracket",
